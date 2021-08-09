@@ -479,6 +479,10 @@ body::-webkit-scrollbar {
     border-radius: 5px 0 0 0;
     justify-content: center;
 }
+.currentCompaniesContent
+{
+	font-size: 15px;
+}
 @media screen and (max-width: 1341px){
     .currentCompaniesHeading {
         position: absolute;
@@ -520,7 +524,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width:1341px) {
     .currentCompaniesContent div {
         margin-top: 3vh;
-        font-size: 2vw;
+        font-size: 1vw;
     }
 }
 
