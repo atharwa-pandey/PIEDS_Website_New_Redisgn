@@ -460,6 +460,8 @@ body::-webkit-scrollbar {
   #slide3 { background: white}
   #slide4 { background: white }
   #slide5 { background:white }
+  #slide6 { background: white}
+  #slide7 { background: white}
 
 .currentCompaniesHeading  {
     position: absolute;
@@ -476,6 +478,10 @@ body::-webkit-scrollbar {
     text-align: center;
     border-radius: 5px 0 0 0;
     justify-content: center;
+}
+.currentCompaniesContent
+{
+	font-size: 15px;
 }
 @media screen and (max-width: 1341px){
     .currentCompaniesHeading {
@@ -518,7 +524,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width:1341px) {
     .currentCompaniesContent div {
         margin-top: 3vh;
-        font-size: 2vw;
+        font-size: 1vw;
     }
 }
 
