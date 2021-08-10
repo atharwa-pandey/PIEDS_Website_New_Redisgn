@@ -88,7 +88,7 @@ body{
 	text-decoration: none!important;
 	padding-bottom: 10px;
 	margin-bottom: 12px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid rgb(242,194,0);
 	list-style: none;
 	color: rgb(242,194,0);
 	transition: all 150ms ease;
@@ -681,18 +681,24 @@ body::-webkit-scrollbar {
     margin-right: auto;
     width: 50%;
     height: auto;
-    -webkit-filter: drop-shadow(5px 5px 5px #666666);
-        filter: drop-shadow(5px 5px 5px #666666);
+    /* -webkit-filter: drop-shadow(5px 5px 5px #666666);
+        filter: drop-shadow(5px 5px 5px #666666); */
 }
 .currentCompaniesContent div {
     text-align: center;
     margin-top: 2vh;
+    text-transform: none;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 @media screen and (max-width:1341px) {
     .currentCompaniesContent div {
-        margin-top: 3vh;
-        font-size: 2vw;
+        margin-top: 2.5vh;
+        font-size: 2.3vw;
     }
+}
+.col-12 div {
+    margin: auto;
 }
 
 /* Highlights */
@@ -754,6 +760,13 @@ body::-webkit-scrollbar {
     display: inline-block;
     vertical-align: middle;
 }
+.counter-Txt div{
+    border: 2px solid rgb(242,194,0);
+    padding: 5px;
+}
+.lastRowProgram {
+    border: none;
+}
 .counter-Txt span {
     font-size: 40px;
     font-weight: 800;
@@ -767,7 +780,7 @@ body::-webkit-scrollbar {
 .contactUs {
     background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ) ;
     background-repeat: no-repeat;
-    background-size: 100vw 110vh;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
     padding-bottom: 50px;
 }
