@@ -1,9 +1,28 @@
-$(function () {
-    $(document).scroll(function () { // for navbar scrolling
-      var $nav = $(".navbar");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    });
-  });
+// $(function () {
+//     $(document).scroll(function () { // for navbar scrolling
+//       var $nav = $(".navbar");
+//       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//     });
+//   });
+
+//Navbar
+
+$(document).ready(function(){
+	$('.hamburger-shell').click(function(){
+		$('#menu').slideToggle(300);
+		$('.top').toggleClass('rotate');
+		$('.middle').toggleClass('rotate-back');
+		$('.menu-name').toggleClass('bump');
+		$('.bg-cover').toggleClass('reveal');
+	});
+	$('.bg-cover').click(function(){
+		$('#menu').slideToggle(300);
+		$('.top').toggleClass('rotate');
+		$('.middle').toggleClass('rotate-back');
+		$('.menu-name').toggleClass('bump');
+		$('.bg-cover').toggleClass('reveal');
+	})
+});
 //Loader
 let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
