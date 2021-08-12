@@ -7,6 +7,7 @@
 body, html {
     padding: 0;
     margin: 0;
+    padding-bottom: 100px;
 }
 .dropbtn {
     background-color: transparent;
@@ -274,8 +275,9 @@ body, html {
 #mainHeading {
     
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
+    width: 100%;
 }
 #mainHeadingContent {
     position: relative; 
@@ -333,6 +335,9 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+#belowPoster{
+    width: 40%;
 }
 .contentHeading{
     text-align: center;
