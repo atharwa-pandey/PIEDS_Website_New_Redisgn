@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Gowun Dodum', sans-serif;
+    font-family: 'Karla', sans-serif;
     text-transform: uppercase;
     user-select: none;
 }
@@ -352,6 +352,7 @@ body::-webkit-scrollbar {
     color: white;
     margin:auto;
     margin-left: 30vw;
+    font-family: 'Rambla', sans-serif;
 }
 #IdeaContent{
     font-size: 30px;
@@ -364,6 +365,7 @@ body::-webkit-scrollbar {
         font-size: 25px;
         margin-left: 0vw;
         margin-top: 15vh;
+        font-family: 'Rambla', sans-serif;
     }
     #IdeaContent{
         font-size: 16px;
@@ -377,6 +379,7 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
+    font-family: 'Rambla', sans-serif;
 }
 .piedsHeadingAlternate {
     display: none;
@@ -384,6 +387,7 @@ body::-webkit-scrollbar {
     font-weight: 800;
     color: white;
     margin-top: 35vh;
+    font-family: 'Rambla', sans-serif;
 }
 @media screen and (max-width:1341px) {
     #piedsHeading{
@@ -431,6 +435,7 @@ body::-webkit-scrollbar {
 }
 #servicesHeading{
     text-shadow: lightslategrey 2px 2px 10px;
+    font-family: 'Rambla', sans-serif;
 }
 .Headings {
     margin: auto;
@@ -441,6 +446,7 @@ body::-webkit-scrollbar {
     vertical-align: auto;
     text-shadow:lightslategrey;
     font-weight: 800;
+    font-family: 'Rambla', sans-serif;
 }
 
 /* Vertical Sliding/Rotating Effect */
@@ -622,6 +628,7 @@ body::-webkit-scrollbar {
 #currentCompaniesHeading {
     padding-bottom: 50px;
     color: white !important;
+    font-family: 'Rambla', sans-serif;
     text-shadow: whitesmoke 2px 2px 10px;
 }
 
@@ -709,6 +716,7 @@ body::-webkit-scrollbar {
     text-align: center;
     border-radius: 5px 0 0 0;
     justify-content: center;
+    font-family: 'Rambla', sans-serif;
 }
 @media screen and (max-width: 1341px){
     .currentCompaniesHeading {
@@ -766,6 +774,7 @@ body::-webkit-scrollbar {
     text-shadow: lightslategrey 2px 2px 10px;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-family: 'Rambla', sans-serif;
 }
 .banners{
     width: 80%;
@@ -783,6 +792,7 @@ body::-webkit-scrollbar {
 .programHeading h2 {
     font-weight: 600;
     margin-top: 15px;
+    font-family: 'Rambla', sans-serif;
 }
 .programContent {
     text-align: center;
@@ -849,6 +859,7 @@ body::-webkit-scrollbar {
     color: white !important;
     text-shadow: whitesmoke 2px 2px 10px;
     margin-top: 20px;
+    font-family: 'Rambla', sans-serif;
 }
 #addressContent {
     width:50%;
@@ -863,6 +874,7 @@ body::-webkit-scrollbar {
     font-weight: 700;
     text-align: center;
     text-shadow: rgb(242,194,0) 1px 1px 5px;
+    font-family: 'Rambla', sans-serif;
 }
 .contactUsContent {
     text-align: center;

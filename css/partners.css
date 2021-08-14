@@ -7,8 +7,26 @@
 body, html {
     padding: 0;
     margin: 0;
+    width: 100%;
+    padding-bottom: 50px;
+}
+/* scroll bar */
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
 }
 
+/* Track */
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  background-color: black;
+}
+ 
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: rgb(242,194,0); 
+}
 .dropbtn {
     background-color: transparent;
     color: rgb(242,194,0);
@@ -68,6 +86,7 @@ body, html {
     transition: 0.5s ease
   }
 .bg-cover {
+  overflow-x: hidden;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -284,7 +303,7 @@ body, html {
     text-shadow:lightslategrey 2px 2px 10px;
     font-weight: 800;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     letter-spacing: 2vw;
     font-family: 'Rambla', sans-serif;
     text-align: center;
@@ -292,108 +311,22 @@ body, html {
 .container {
     margin-top: 50px;
 }
-.sidelineHeading {
-    font-size: 20px;
-    text-shadow:lightslategrey 2px 2px 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-family: 'Rambla', sans-serif;
+.heading {
+  text-align: center;
+  font-size: 30px;
+  text-shadow:lightslategrey 2px 2px 10px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: 'Rambla', sans-serif;
+  margin-top: 50px;
 }
-.sidelineContent{
-    vertical-align: middle;
-}
-.sidelineContent img {
-    border-radius: 50%;
-    border: 1px solid rgb(242,194,0);
-    box-shadow: rgb(242,194,0) 1px 1px 10px;
-}
-.names{
-    float: right;
-    width: 70%;
-    margin-top: 20px;
-
-}
-.sideline {
-    border-right: rgb(242,194,0) 2px solid;
-}
-.sidelineLinks a {
-    text-decoration: underline;
-    color: black;
-    transition: 0.5s ease;
-}
-.sidelineLinks a:hover {
-    text-decoration: none;
-    padding-left: 5px;
-}
-.sidelineLinks {
-    margin-bottom: 50px;
-}
-.content{
-    padding-left: 40px;
-}
-.content img {
-    display: block;
+img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
 }
-.contentHeading{
-    text-align: center;
-    font-size: 20px;
-    text-shadow:lightslategrey 2px 2px 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-family: 'Rambla', sans-serif;
+.images {
+  border-bottom: rgb(242,194,0) 2px solid;
+  padding-bottom: 20px;
 }
-.learnMoreBtn {
-    background-color: rgb(242,194,0);
-    padding: 18px;
-    border: rgb(242,194,0);
-    box-shadow:2px 2px 10px rgb(242,194,0);
-    transition: 0.5s;
-    margin-bottom: 20px;
-}
-.learnMoreBtn:hover{
-    opacity: 0.5;
-}
-.learnMoreBtn a {
-    text-decoration: none;
-    color: white;
-    align-items: center;
-    font-weight: 700;
-}
-.learnMoreBtnWrapper {
-    text-align: center;
-}
-.contentWhenBottom{
-    display: none;
-}
-@media screen and (max-width:992px) {
-    .contentWhenBottom{
-        display: block;
-        align-items: center;
-        border: none;
-        margin-left: 40px;
-        margin-top: 20px;
-    }
-    .contentWhenSide{
-        display: none;
-    }
-}
-/* scroll bar */
-/* width */
-body::-webkit-scrollbar {
-    width: 10px;
-    height: 0px;
-  }
-  
-  /* Track */
-  body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px black; 
-    background-color: black;
-  }
-   
-  /* Handle */
-  body::-webkit-scrollbar-thumb {
-    background: rgb(242,194,0); 
-  }

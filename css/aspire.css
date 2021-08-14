@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Gowun Dodum', sans-serif;
+    font-family: 'Karla', sans-serif;
     text-transform: uppercase;
     user-select: none;
 }
@@ -287,6 +287,7 @@ body, html {
     color: white;
     font-size: 80px;
     letter-spacing: 2vw;
+    font-family: 'Rambla', sans-serif;
     text-align: center;
 }
 .container {
@@ -297,6 +298,7 @@ body, html {
     text-shadow:lightslategrey 2px 2px 10px;
     margin-bottom: 10px;
     font-weight: 700;
+    font-family: 'Rambla', sans-serif;
 }
 .sidelineContent{
     vertical-align: middle;
@@ -342,6 +344,7 @@ body, html {
     text-shadow:lightslategrey 2px 2px 10px;
     margin-bottom: 10px;
     font-weight: 700;
+    font-family: 'Rambla', sans-serif;
 }
 .learnMoreBtn {
     background-color: rgb(242,194,0);

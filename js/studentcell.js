@@ -101,28 +101,28 @@ let spinnerWrapper = document.querySelector('.spinner-wrapper');
     });
 
     //Scroll Reveal
-window.sr = ScrollReveal();
-sr.reveal('.leftEntrance' , {
-duration: 2000,
-origin:'left',
-distance: '50px'
-});
-window.sr = ScrollReveal();
-sr.reveal('.rightEntrance' , {
-duration: 3000,
-origin:'right',
-distance: '50px'
-});
-window.sr = ScrollReveal();
-sr.reveal('.bottomEntrance' , {
-duration: 3000,
-origin:'bottom',
-distance: '50px'
-});
-window.sr = ScrollReveal();
-sr.reveal('#mainHeadingContent' , {
-duration: 3000,
-origin:'top',
-distance: '100px',
-reset: 'always'
-});
+    window.sr = ScrollReveal();
+    sr.reveal('.heading' , {
+    duration: 2000,
+    origin:'right',
+    distance: '75px'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.our-team' , {
+    duration: 3000,
+    origin:'right',
+    distance: '75px'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.content' , {
+    duration: 3000,
+    origin:'bottom',
+    distance: '50px'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('#mainHeadingContent' , {
+    duration: 3000,
+    origin:'top',
+    distance: '100px',
+    reset: 'always'
+    });
