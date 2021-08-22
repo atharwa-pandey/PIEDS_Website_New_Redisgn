@@ -603,7 +603,10 @@ body::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 .servicesRows{
     text-align: center;
@@ -747,7 +750,7 @@ body::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
     height: auto;
     /* -webkit-filter: drop-shadow(5px 5px 5px #666666);
         filter: drop-shadow(5px 5px 5px #666666); */
