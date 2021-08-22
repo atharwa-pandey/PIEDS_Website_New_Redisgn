@@ -854,6 +854,11 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
     padding-bottom: 50px;
 }
+@media screen and (max-width: 1300px) {
+    .contactUs {
+        background-size:auto 100vh;
+    }
+}
 #contactUsHeading {
     padding-bottom: 50px;
     color: white !important;
