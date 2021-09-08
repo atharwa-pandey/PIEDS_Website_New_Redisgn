@@ -344,14 +344,14 @@ body::-webkit-scrollbar-thumb {
     width: 230px;
     margin-left: auto;
     margin-right: auto;
-    height: 325px;
+    height: 300px;
   }
   
   .our-team .picture {
     display: inline-block;
     height: 130px;
     width: 130px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     z-index: 1;
     position: relative;
   }
