@@ -102,7 +102,7 @@ let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
     //Scroll Reveal
     window.sr = ScrollReveal();
-    sr.reveal('.heading , form' , {
+    sr.reveal('.heading' , {
     duration: 2000,
     origin:'right',
     distance: '75px'
