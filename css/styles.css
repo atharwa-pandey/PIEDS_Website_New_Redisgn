@@ -855,7 +855,7 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-attachment: fixed;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 @media screen and (max-width: 1300px) {
     .contactUs {
