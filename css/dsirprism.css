@@ -93,7 +93,7 @@ body, html {
 	margin: 0;
 	position: fixed;
 	overflow: hidden;
-	width: 70px;
+	width: 40px;
 	height: 100px;
 	overflow: auto;
 	left: calc(100% - 100px);
@@ -290,6 +290,15 @@ body, html {
     letter-spacing: 2vw;
     text-align: center;
     font-family: 'Rambla', sans-serif;
+}
+@media screen and (max-width:500px) {
+    #mainHeading{
+        left: 10%;
+        width: 0px;
+    }
+    #mainHeadingContent{
+        left: -50%;
+    }
 }
 .container {
     margin-top: 50px;
