@@ -127,15 +127,15 @@ window.sr = ScrollReveal();
   reset: 'always'
   });
 
-  $(".FocusAreaHeading1").on('mouseenter', function(){
-    $(".problemStatement1").toggleClass('m-fadeOut');
-    $(".problemStatement1").toggleClass('m-fadeIn');
- });
+ // $(".FocusAreaHeading1").on('mouseenter', function(){
+ //  $(".problemStatement1").toggleClass('m-fadeOut');
+ //   $(".problemStatement1").toggleClass('m-fadeIn');
+ //});
  
- $(".FocusAreaHeading1").on('mouseleave', function(){
-    $(".problemStatement1").toggleClass('m-fadeOut');
-    $(".problemStatement1").toggleClass('m-fadeIn');
- });
+ //$(".FocusAreaHeading1").on('mouseleave', function(){
+ //   $(".problemStatement1").toggleClass('m-fadeOut');
+ //   $(".problemStatement1").toggleClass('m-fadeIn');
+ //});
 
 //  $(".FocusAreaHeading").hover(function(){
 //     $(".problemStatement").addClass(".problemStatementVisible");
@@ -146,21 +146,21 @@ window.sr = ScrollReveal();
 //     $(".problemStatement").addClass(".problemStatementHidden");
 //  });
  
-$(".FocusAreaHeading2").on('mouseenter', function(){
-    $(".problemStatement2").toggleClass('m-fadeOut');
-    $(".problemStatement2").toggleClass('m-fadeIn');
- });
+//$(".FocusAreaHeading2").on('mouseenter', function(){
+//    $(".problemStatement2").toggleClass('m-fadeOut');
+//    $(".problemStatement2").toggleClass('m-fadeIn');
+// });
  
- $(".FocusAreaHeading2").on('mouseleave', function(){
-    $(".problemStatement2").toggleClass('m-fadeIn');
-    $(".problemStatement2").toggleClass('m-fadeOut');
- });
- $(".FocusAreaHeading3").on('mouseenter', function(){
-    $(".problemStatement3").toggleClass('m-fadeOut');
-    $(".problemStatement3").toggleClass('m-fadeIn');
- });
+ //$(".FocusAreaHeading2").on('mouseleave', function(){
+ //   $(".problemStatement2").toggleClass('m-fadeIn');
+ // $(".problemStatement2").toggleClass('m-fadeOut');
+ //});
+ //$(".FocusAreaHeading3").on('mouseenter', function(){
+ //   $(".problemStatement3").toggleClass('m-fadeOut');
+ //   $(".problemStatement3").toggleClass('m-fadeIn');
+ //});
  
- $(".FocusAreaHeading3").on('mouseleave', function(){
-    $(".problemStatement3").toggleClass('m-fadeOut');
-    $(".problemStatement3").toggleClass('m-fadeIn');
- });
+ //$(".FocusAreaHeading3").on('mouseleave', function(){
+ //   $(".problemStatement3").toggleClass('m-fadeOut');
+ //   $(".problemStatement3").toggleClass('m-fadeIn');
+ //});
