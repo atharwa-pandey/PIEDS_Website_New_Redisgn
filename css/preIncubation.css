@@ -407,6 +407,10 @@ body, html {
     .contentWhenSide{
         display: none;
     }
+   img {
+        max-width: 100%;
+        height: auto;
+      }
 }
 /* scroll bar */
 /* width */
