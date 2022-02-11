@@ -340,6 +340,7 @@ body, html {
 }
 .content{
     padding-left: 40px;
+    text-transform: none;
 }
 .content img {
     display: block;
